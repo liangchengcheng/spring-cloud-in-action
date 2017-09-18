@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="api-gateway-dynamic-filter:war">
+    <output-path>$PROJECT_DIR$/api-gateway-dynamic-filter/target</output-path>
+    <root id="archive" name="api-gateway-dynamic-filter.war">
+      <element id="artifact" artifact-name="api-gateway-dynamic-filter:war exploded" />
+    </root>
+  </artifact>
+</component>

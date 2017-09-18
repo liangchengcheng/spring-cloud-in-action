@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-dynamic-filter/api-gateway-dynamic-filter.iml" filepath="$PROJECT_DIR$/api-gateway-dynamic-filter/api-gateway-dynamic-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-dynamic-route/api-gateway-dynamic-route.iml" filepath="$PROJECT_DIR$/api-gateway-dynamic-route/api-gateway-dynamic-route.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-exception/api-gateway-exception.iml" filepath="$PROJECT_DIR$/api-gateway-exception/api-gateway-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-in-action.iml" filepath="$PROJECT_DIR$/spring-cloud-in-action.iml" />
     </modules>
   </component>

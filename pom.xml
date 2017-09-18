@@ -7,6 +7,9 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>api-gateway</module>
+      <module>api-gateway-dynamic-filter</module>
+    <module>api-gateway-dynamic-route</module>
+    <module>api-gateway-exception</module>
   </modules>
   <name>app1</name>
 

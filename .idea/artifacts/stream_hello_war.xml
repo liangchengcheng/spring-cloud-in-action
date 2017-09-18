@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="stream-hello:war">
+    <output-path>$PROJECT_DIR$/stream-hello/target</output-path>
+    <root id="archive" name="stream-hello.war">
+      <element id="artifact" artifact-name="stream-hello:war exploded" />
+    </root>
+  </artifact>
+</component>

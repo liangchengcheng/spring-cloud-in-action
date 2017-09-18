@@ -9,13 +9,53 @@
         <module name="api-gateway" />
         <module name="api-gateway-dynamic-filter" />
         <module name="api-gateway-dynamic-route" />
+        <module name="api-gateway-exception" />
+        <module name="config-client" />
+        <module name="config-client-eureka" />
+        <module name="config-client-eureka-kafka" />
+        <module name="config-client-eureka-rabbit" />
+        <module name="config-server-eureka" />
+        <module name="config-server-eureka-kafka" />
+        <module name="config-server-eureka-rabbit" />
+        <module name="eureka-server" />
+        <module name="eureka-server-ha" />
+        <module name="feign-consumer" />
+        <module name="hello-service" />
+        <module name="hello-service-api" />
+        <module name="hystrix-dashboard" />
+        <module name="rabbitmq-hello" />
+        <module name="ribbon-consumer" />
+        <module name="spring-boot-hello" />
+        <module name="stream-consumer" />
+        <module name="stream-hello" />
+        <module name="stream-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.7" />
       <module name="api-gateway-dynamic-filter" target="1.7" />
       <module name="api-gateway-dynamic-route" target="1.7" />
+      <module name="api-gateway-exception" target="1.7" />
+      <module name="config-client" target="1.7" />
+      <module name="config-client-eureka" target="1.7" />
+      <module name="config-client-eureka-kafka" target="1.7" />
+      <module name="config-client-eureka-rabbit" target="1.7" />
+      <module name="config-server-eureka" target="1.7" />
+      <module name="config-server-eureka-kafka" target="1.7" />
+      <module name="config-server-eureka-rabbit" target="1.7" />
+      <module name="eureka-server" target="1.7" />
+      <module name="eureka-server-ha" target="1.7" />
+      <module name="feign-consumer" target="1.7" />
+      <module name="hello-service" target="1.7" />
+      <module name="hello-service-api" target="1.7" />
+      <module name="hystrix-dashboard" target="1.7" />
+      <module name="rabbitmq-hello" target="1.7" />
+      <module name="ribbon-consumer" target="1.7" />
+      <module name="spring-boot-hello" target="1.7" />
       <module name="spring-cloud-in-action" target="1.7" />
+      <module name="stream-consumer" target="1.7" />
+      <module name="stream-hello" target="1.7" />
+      <module name="stream-producer" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

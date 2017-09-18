@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="api-gateway-exception:war">
+    <output-path>$PROJECT_DIR$/api-gateway-exception/target</output-path>
+    <root id="archive" name="api-gateway-exception.war">
+      <element id="artifact" artifact-name="api-gateway-exception:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ribbon-consumer:war">
+    <output-path>$PROJECT_DIR$/ribbon-consumer/target</output-path>
+    <root id="archive" name="ribbon-consumer.war">
+      <element id="artifact" artifact-name="ribbon-consumer:war exploded" />
+    </root>
+  </artifact>
+</component>

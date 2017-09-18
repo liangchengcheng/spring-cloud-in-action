@@ -10,6 +10,27 @@
       <module>api-gateway-dynamic-filter</module>
     <module>api-gateway-dynamic-route</module>
     <module>api-gateway-exception</module>
+    <module>config-client</module>
+    <module>config-client-eureka</module>
+    <module>config-client-eureka-kafka</module>
+    <module>config-client-eureka-rabbit</module>
+    <module>config-server</module>
+    <module>config-server-eureka</module>
+    <module>config-server-eureka-kafka</module>
+    <module>config-server-eureka-rabbit</module>
+    <module>eureka-server</module>
+    <module>eureka-server-ha</module>
+    <module>feign-consumer</module>
+    <module>hello-service</module>
+    <module>hello-service-api</module>
+    <module>hystrix-dashboard</module>
+    <module>rabbitmq-hello</module>
+    <module>ribbon-consumer</module>
+    <module>spring-boot-hello</module>
+    <module>stream-consumer</module>
+    <module>stream-hello</module>
+    <module>stream-producer</module>
+    <module>trace-1</module>
   </modules>
   <name>app1</name>
 

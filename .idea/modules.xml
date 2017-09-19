@@ -27,6 +27,14 @@
       <module fileurl="file://$PROJECT_DIR$/stream-hello/stream-hello.iml" filepath="$PROJECT_DIR$/stream-hello/stream-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-producer/stream-producer.iml" filepath="$PROJECT_DIR$/stream-producer/stream-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/trace-1/trace-1.iml" filepath="$PROJECT_DIR$/trace-1/trace-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-2/trace-2.iml" filepath="$PROJECT_DIR$/trace-2/trace-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-stream-1/trace-stream-1.iml" filepath="$PROJECT_DIR$/trace-stream-1/trace-stream-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-stream-2/trace-stream-2.iml" filepath="$PROJECT_DIR$/trace-stream-2/trace-stream-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" filepath="$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-server/zipkin-server.iml" filepath="$PROJECT_DIR$/zipkin-server/zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-server-stream/zipkin-server-stream.iml" filepath="$PROJECT_DIR$/zipkin-server-stream/zipkin-server-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-server-stream-mysql/zipkin-server-stream-mysql.iml" filepath="$PROJECT_DIR$/zipkin-server-stream-mysql/zipkin-server-stream-mysql.iml" />
     </modules>
   </component>
 </project>

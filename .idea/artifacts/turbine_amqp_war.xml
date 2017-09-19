@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="turbine-amqp:war">
+    <output-path>$PROJECT_DIR$/turbine-amqp/target</output-path>
+    <root id="archive" name="turbine-amqp.war">
+      <element id="artifact" artifact-name="turbine-amqp:war exploded" />
+    </root>
+  </artifact>
+</component>

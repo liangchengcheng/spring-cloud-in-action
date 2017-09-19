@@ -24,6 +24,15 @@
     <file type="web" url="file://$PROJECT_DIR$/stream-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/stream-hello" />
     <file type="web" url="file://$PROJECT_DIR$/stream-producer" />
+    <file type="web" url="file://$PROJECT_DIR$/trace-1" />
+    <file type="web" url="file://$PROJECT_DIR$/trace-2" />
+    <file type="web" url="file://$PROJECT_DIR$/trace-stream-1" />
+    <file type="web" url="file://$PROJECT_DIR$/trace-stream-2" />
+    <file type="web" url="file://$PROJECT_DIR$/turbine" />
+    <file type="web" url="file://$PROJECT_DIR$/turbine-amqp" />
+    <file type="web" url="file://$PROJECT_DIR$/zipkin-server" />
+    <file type="web" url="file://$PROJECT_DIR$/zipkin-server-stream" />
+    <file type="web" url="file://$PROJECT_DIR$/zipkin-server-stream-mysql" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

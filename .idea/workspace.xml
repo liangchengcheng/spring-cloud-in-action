@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d75f3e-0a10-480d-8fe8-9938f758354f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/web/TestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server-eureka-kafka/src/main/java/com/didispace/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-dev.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-prod.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-test.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server-eureka-kafka/config-server-eureka-kafka.iml" afterPath="$PROJECT_DIR$/config-server-eureka-kafka/config-server-eureka-kafka.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
@@ -106,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/web/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#450#451#0" expanded="true" />
@@ -119,6 +124,70 @@
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="didispace-dev.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="didispace-prod.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-prod.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="didispace-test.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-test.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="didispace.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/java/com/didispace/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,12 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api-gateway-dynamic-route/pom.xml" />
-        <option value="$PROJECT_DIR$/api-gateway-exception/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client-eureka-kafka/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client-eureka-rabbit/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-eureka-kafka/pom.xml" />
@@ -203,6 +266,12 @@
         <option value="$PROJECT_DIR$/config-client-eureka-kafka/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/Application.java" />
         <option value="$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/web/TestController.java" />
+        <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-dev.properties" />
+        <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-prod.properties" />
+        <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-test.properties" />
+        <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace.properties" />
+        <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/java/com/didispace/Application.java" />
       </list>
     </option>
   </component>
@@ -244,63 +313,45 @@
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server-eureka-kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server-eureka-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server-eureka-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server-eureka-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="didispace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server-eureka-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="didispace" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server-eureka-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client-eureka-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,12 +389,13 @@
     <property name="project.structure.side.proportion" value="0.2523148" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config-client-eureka/src/main/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources" />
       <recent name="$PROJECT_DIR$/config-server-eureka-rabbit/src/main/resources" />
       <recent name="$PROJECT_DIR$/config-server-eureka/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config-client-eureka/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -454,16 +506,15 @@
       <workItem from="1505781919725" duration="17000" />
       <workItem from="1505859761074" duration="2950000" />
       <workItem from="1505911371442" duration="3255000" />
-      <workItem from="1506039492677" duration="896000" />
+      <workItem from="1506039492677" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10309000" />
+    <option name="totallyTimeSpent" value="10529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="340" y="105" width="1182" height="600" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -486,7 +537,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26754385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26754385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -546,48 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client-eureka-rabbit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-eureka-rabbit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
@@ -830,6 +839,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,6 +847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -844,6 +855,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -851,6 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -885,7 +898,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -901,7 +914,7 @@
     <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
@@ -913,7 +926,7 @@
     <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/web/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
@@ -922,6 +935,58 @@
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/java/com/didispace/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -980,7 +1045,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>config-client-eureka-kafka</last-edited>
+          <last-edited>config-server-eureka-kafka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

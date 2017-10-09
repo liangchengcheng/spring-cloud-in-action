@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d75f3e-0a10-480d-8fe8-9938f758354f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/ConsumerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloServiceFallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feign-consumer/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/feign-consumer/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloService.java" afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloServiceFallback.java" afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloServiceFallback.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,57 +81,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloServiceFallback.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloServiceFallback.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloServiceFallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="405">
+              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-server-eureka/src/main/java/com/didispace/Application.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/didispace/Application.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/didispace/web/TestController.java" />
@@ -219,6 +189,7 @@
         <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/User.java" />
         <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloService.java" />
+        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloServiceFallback.java" />
       </list>
     </option>
   </component>
@@ -229,8 +200,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="457" />
-    <option name="y" value="260" />
+    <option name="x" value="708" />
+    <option name="y" value="68" />
     <option name="width" value="907" />
     <option name="height" value="697" />
   </component>
@@ -479,15 +450,15 @@
       <workItem from="1506159236683" duration="2735000" />
       <workItem from="1506464621920" duration="4285000" />
       <workItem from="1507503075615" duration="1363000" />
-      <workItem from="1507589779556" duration="863000" />
+      <workItem from="1507589779556" duration="1287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19803000" />
+    <option name="totallyTimeSpent" value="20227000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="457" y="260" width="907" height="697" extended-state="0" />
+    <frame x="708" y="68" width="907" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -511,7 +482,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35260117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35260117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -940,19 +911,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloServiceFallback.java">
+    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloService.java">
+    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/didispace/web/HelloServiceFallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="405">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

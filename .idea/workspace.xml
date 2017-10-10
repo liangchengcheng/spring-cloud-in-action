@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d75f3e-0a10-480d-8fe8-9938f758354f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello-service-api/src/main/java/com/didispace/dto/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello-service-api/src/main/java/com/didispace/service/HelloService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/didispace/HystrixDashboardApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/HelloApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Receiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Sender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-service-api/hello-service-api.iml" afterPath="$PROJECT_DIR$/hello-service-api/hello-service-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" afterPath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rabbitmq-hello/rabbitmq-hello.iml" afterPath="$PROJECT_DIR$/rabbitmq-hello/rabbitmq-hello.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,15 +85,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HystrixDashboardApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/didispace/HystrixDashboardApplication.java">
+      <file leaf-file-name="Sender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+            <state relative-caret-position="120">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Receiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,9 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-server-eureka-rabbit/src/main/resources/didispace.properties" />
-        <option value="$PROJECT_DIR$/config-server-eureka-rabbit/src/main/java/com/didispace/Application.java" />
-        <option value="$PROJECT_DIR$/config-client-eureka-rabbit/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/config-client-eureka-rabbit/src/main/java/com/didispace/Application.java" />
         <option value="$PROJECT_DIR$/config-client-eureka-rabbit/src/main/java/com/didispace/web/TestController.java" />
         <option value="$PROJECT_DIR$/config-client-eureka-kafka/src/main/resources/bootstrap.properties" />
@@ -179,6 +187,9 @@
         <option value="$PROJECT_DIR$/hello-service-api/src/main/java/com/didispace/service/HelloService.java" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/didispace/HystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Sender.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Receiver.java" />
       </list>
     </option>
   </component>
@@ -189,8 +200,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="707" />
-    <option name="y" value="316" />
+    <option name="x" value="801" />
+    <option name="y" value="239" />
     <option name="width" value="907" />
     <option name="height" value="697" />
   </component>
@@ -223,25 +234,25 @@
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -249,7 +260,7 @@
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -258,7 +269,28 @@
             <path>
               <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="didispace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="didispace" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -449,15 +481,15 @@
       <workItem from="1506464621920" duration="4285000" />
       <workItem from="1507503075615" duration="1363000" />
       <workItem from="1507589779556" duration="2640000" />
-      <workItem from="1507675014450" duration="1050000" />
+      <workItem from="1507675014450" duration="2078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22630000" />
+    <option name="totallyTimeSpent" value="23658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="707" y="316" width="907" height="697" extended-state="0" />
+    <frame x="801" y="239" width="907" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -522,7 +554,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35260117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35260117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -541,34 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-client-eureka-rabbit/src/main/java/com/didispace/web/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/web/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -907,7 +911,7 @@
         <state relative-caret-position="300">
           <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -957,14 +961,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/didispace/HystrixDashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        <state relative-caret-position="60">
+          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
             <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/HelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1023,7 +1064,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hystrix-dashboard</last-edited>
+          <last-edited>rabbitmq-hello</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

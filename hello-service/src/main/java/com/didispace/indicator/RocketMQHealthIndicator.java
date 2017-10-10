@@ -22,4 +22,5 @@ public class RocketMQHealthIndicator implements HealthIndicator{
     private int check(){
         return 0;
     }
+
 }

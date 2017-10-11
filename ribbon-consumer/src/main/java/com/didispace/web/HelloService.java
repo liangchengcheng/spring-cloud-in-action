@@ -27,19 +27,21 @@ public class HelloService {
         long start = System.currentTimeMillis();
 
         StringBuilder result = new StringBuilder();
-        // GET
+
+        // TODO: 2017/10/12 GET
         result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello", String.class)
                 .getBody()).append("<br>");
         result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello1?name={1}", String.class,
                 "didi").getBody()).append("<br>");
 
-
+        // TODO: 2017/10/12 GET
         Map<String,String> params = new HashMap<>();
         params.put("name","data");
         result.append(restTemplate.getForEntity(
                 "http://HELLO-SERVICE/hello1?name={name}", String.class, params)
                 .getBody()).append("<br>");
 
+        // TODO: 2017/10/12  UriComponents
         UriComponents uriComponents = UriComponentsBuilder.fromUriString(
                 "http://HELLO-SERVICE/hello1?name={name}"
         ).build().expand("dodo").encode();
@@ -47,7 +49,7 @@ public class HelloService {
         result.append(restTemplate.getForEntity(uri, String.class).getBody()).append("<br>");
 
 
-        //POST
+        // TODO: 2017/10/12 POST
         User user = new User("didi", 20);
         String postResult = restTemplate.postForObject("http://HELLO-SERVICE/hello3", user, String.class);
         result.append(postResult).append("<br>");

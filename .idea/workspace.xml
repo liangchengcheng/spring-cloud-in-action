@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d75f3e-0a10-480d-8fe8-9938f758354f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/rabbit/RabbitConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/ConsumerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/web/HelloService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/web/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/HelloApplication.java" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/HelloApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" afterPath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,17 +82,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsumerApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/ConsumerApplication.java">
+      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/web/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+            <state relative-caret-position="286">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-client-eureka-kafka/src/main/java/com/didispace/web/TestController.java" />
-        <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-dev.properties" />
         <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-prod.properties" />
         <option value="$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-test.properties" />
@@ -180,6 +171,8 @@
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/didispace/HelloApplication.java" />
         <option value="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/web/User.java" />
+        <option value="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/web/HelloService.java" />
       </list>
     </option>
   </component>
@@ -190,8 +183,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="495" />
-    <option name="y" value="142" />
+    <option name="x" value="373" />
+    <option name="y" value="62" />
     <option name="width" value="907" />
     <option name="height" value="697" />
   </component>
@@ -212,8 +205,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,6 +263,17 @@
               <item name="ribbon-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="didispace" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -294,6 +296,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,15 +464,16 @@
       <workItem from="1506464621920" duration="4285000" />
       <workItem from="1507503075615" duration="1363000" />
       <workItem from="1507589779556" duration="2640000" />
-      <workItem from="1507675014450" duration="2541000" />
+      <workItem from="1507675014450" duration="3205000" />
+      <workItem from="1507761891642" duration="127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24121000" />
+    <option name="totallyTimeSpent" value="24912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="495" y="142" width="907" height="697" extended-state="0" />
+    <frame x="373" y="62" width="907" height="697" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -551,20 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/java/com/didispace/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/resources/didispace-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -738,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,11 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,18 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#277#278#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-            <element signature="e#349#350#0" expanded="false" />
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,9 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,15 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#753#754#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,11 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,18 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#283#284#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,9 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,18 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#283#284#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,10 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-          <folding>
-            <element signature="e#362#363#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,9 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,11 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#338#339#0" expanded="false" />
-            <element signature="e#394#395#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,20 +894,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/ConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#629#630#0" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
             <element signature="e#715#716#0" expanded="true" />
             <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/web/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-consumer/src/main/java/com/didispace/web/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
